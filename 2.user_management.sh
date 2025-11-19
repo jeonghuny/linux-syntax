@@ -21,12 +21,12 @@ chown newuser1:newuser1
 1) root 계정 권한 빌리기만 2) root 계정으로 전환
 권한 빌릴때는 내 계정의 비밀번호, root계정으로 전환할때는 root계정의 비밀번호
 
-sudo passwd newuser1 -> 새로운 계정의 비밀번호
+sudo useradd newuser1 -> 새로운 계정 입력
+sudo passwd newuser1 -> 새로운 계정의 비밀번호 입력
 1)권한을 빌릴대는 내계정의 비밀번호
 2)root계정으로 전환 root계정의 비밀번호 : su -
 
-
-su - : 
+su - newuser1  -> 새로운 계정의 비밀번호 입력
 
 su root // 실행 후 root 비밀번호 입력 필요
 sudo root // 실행 후 

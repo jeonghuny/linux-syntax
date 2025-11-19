@@ -122,6 +122,9 @@ mv second_file.txt ../
 # grep : 파일 내에서 문자열 찾기
 # r:디렉토리내 n:라인수출력 i:대소문자구분없이
 grep -rni "hello" .
+- 예시)grep -rni "hello" mydir
+ hello 문자열을 라인수와 함께 mydir폴더에서 대소문자 구분 없이 검색
+
 
 # find : 이름으로 파일 또는 디렉토리 찾기
 find . -name "*.txt"       // txt로 끝나는 파일 찾기
