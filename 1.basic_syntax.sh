@@ -1,3 +1,13 @@
+[리눅스]
+- 레드헷(enterpise), 데비안 계열
+가상화 pc
+- 도커, virtual box, vmware
+
+1. vmware설치
+2. vmware위에 실행할 리눅스 iso파일 
+- /etc , /home , /var
+- 쉘 프로그래밍 언어 ex) cd 등
+
 - 쉘명령어
 
 # 현재 위치 경로 출력
